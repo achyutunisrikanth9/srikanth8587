@@ -22,4 +22,4 @@ df = pd.DataFrame({
 df.to_markdown("summary_comparison.md", index=False)
 df.to_csv("summary_comparison.csv", index=False)
 
-print("✅ Comparison table saved as 'summary_comparison.md' and 'summary_comparison.csv'")
+print("✅ Comparison table saved as 'summary_comparison.md' and 'summary_comparison.json'")
